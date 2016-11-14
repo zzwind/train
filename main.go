@@ -5,5 +5,11 @@ import (
 )
 
 func main() {
-	fmt.Println("hello,train!")
+	p := 0
+
+	pp := &p
+
+	*pp = 1
+
+	fmt.Println(p)
 }
