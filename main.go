@@ -18,6 +18,22 @@ func main() {
 
 	s := "hello,world"
 
-	fmt.Println(s[0:5])
+	ss := "你好世界"
 
+	fmt.Println(s[0])
+	fmt.Println(ss[0:3])
+
+	usage := `
+	
+	fdsfdsfadsfdsa
+	fdfsf
+	dsf
+	dsafads
+	fas
+	fdas
+	fsaf
+	sadfdsaf
+	`
+
+	fmt.Println(usage)
 }
