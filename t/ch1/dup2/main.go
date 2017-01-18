@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	fmt.Println("zz")
 	counts := make(map[string]int)
 	files := os.Args[1:]
 	if len(files) == 0 {

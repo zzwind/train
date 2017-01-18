@@ -1,6 +1,6 @@
 package popcount
 
-var pc [256]byte
+//var pc [256]byte
 
 func init() {
 	for i := range pc {

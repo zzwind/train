@@ -20,4 +20,9 @@ func main() {
 		}
 	}
 
+	// tt
+	fmt.Printf("%c", "你")
+
+	//time.Now()
+
 }
